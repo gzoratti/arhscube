@@ -1,5 +1,4 @@
-- hosts: all
-  become: true
+- hosts: Linux Inventory
   tasks:
   - name: Update and upgrade apt packages
     apt:
